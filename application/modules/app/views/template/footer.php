@@ -8,7 +8,7 @@
                                 <div class="col-md-6 col-lg-6 col-xl-5">
                                     <div class="footer-item">
                                         <a href="index.html" class="p-0">
-                                            <h3 class="text-white"><i class="fab fa-slack me-3"></i> LifeSure</h3>
+                                            <h3 class="text-white"><i class="fab fa-slack me-3"></i> <?= @$identitas['desa_nm'] ?></h3>
                                             <!-- <img src="<?= base_url() ?>assets/img/logo.png" alt="Logo"> -->
                                         </a>
                                         <p class="text-white mb-4">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit amet, consectetur adipiscing...</p>
