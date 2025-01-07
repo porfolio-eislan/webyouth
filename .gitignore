@@ -1,0 +1,127 @@
+# Entry Point
+/index.php
+
+# Mac OS
+.DS_Store
+
+# Log
+application/logs/*.*
+!application/logs/index.html
+
+application/cache/*.*
+!application/cache/index.html
+
+# Temporary
+tmp/*
+!tmp/index.html
+captcha/*
+!captcha/index.html
+
+# Config
+application/config/database.php
+application/config/mongo_db.php
+application/config/config.php
+
+# Assets
+assets/users/*
+!assets/users/index.html
+!assets/users/no-photo.png
+
+assets/antrean_farmasi/*
+!assets/antrean_farmasi/index.html
+
+assets/pegawai/*
+!assets/pegawai/index.html
+
+assets/pdf_eklaim/*
+!assets/pdf_eklaim/index.html
+
+assets/tmp_file/*
+!assets/tmp_file/index.html
+
+assets/video_pasien/*
+!assets/video_pasien/index.html
+
+assets/videos/*
+!assets/videos/index.html
+
+assets/sanitasi/*
+!assets/sanitasi/index.html
+
+assets/ocr/*
+!assets/ocr/index.html
+
+assets/ipsrs/*
+!assets/ipsrs/index.html
+
+assets/dokumen_upload_rad/*
+!assets/dokumen_upload_rad/index.html
+
+assets/hasil_ekg/*
+!assets/hasil_ekg/index.html
+
+assets/upload_file/*
+!assets/upload_file/index.html
+
+assets/hasil_echo/*
+!assets/hasil_echo/index.html
+
+assets/qrcode/*
+!assets/qrcode/index.html
+
+assets/barcode/*
+!assets/barcode/index.html
+
+assets/ttd_pasien/*
+!assets/ttd_pasien/index.html
+
+assets/pks/data/*
+!assets/pks/data/index.html
+
+assets/aset/*
+!assets/aset/index.html
+
+assets/ppi/supervisi/*
+!assets/ppi/supervisi/index.html
+
+# System
+master_dokumen/*
+!master_dokumen/index.html
+!master_dokumen/testing_asesmen.doc
+
+# Internal Tester
+# application/modules/z/*
+
+# Database
+database/*.*
+
+# Cache
+application/cache/*
+
+# manifest_asset
+assets/manifest_asset/android/*
+!assets/manifest_asset/android/index.html
+assets/manifest_asset/ios/*
+!assets/manifest_asset/ios/index.html
+
+# ttd file
+assets/ttd/*
+!assets/ttd/index.html
+
+# klaim
+assets/klaim/*.*
+!assets/klaim/index.html
+
+# klaim
+assets/klaim/*.*
+!assets/klaim/index.html
+
+assets/klaim_rajal/*.*
+!assets/klaim_rajal/index.html
+assets/klaim_ranap/*.*
+!assets/klaim_ranap/index.html
+
+# vscode
+.vscode/*.*
+assets/logo/*.*
+!assets/logo/index.html

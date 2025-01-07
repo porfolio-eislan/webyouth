@@ -1,0 +1,13 @@
+{
+    "merchant": {
+        "100": "C:\\laragon\\www\\rsud_ajibarang\\simrs\\application\\libraries\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/merchant_100_2415974c153b7b42a90d728258f03db6",
+        "normal": "merchant_normal_d223edf84a63ea33fc9e6adf5bc0f092"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_a27502d149a48a90c15f09f21b144036"
+    },
+    "font awesome 5 free": {
+        "normal": "D:\\xampp7\\htdocs\\simrs\\application\\libraries\\dompdf\\vendor\\dompdf\\dompdf\/lib\/fonts\/font_awesome_5_free_normal_717b2e23191a3a47471bd4133d39cbcc",
+        "900": "font_awesome_5_free_900_62abf7c346c54ba044a24f37202b9e7c"
+    }
+}
