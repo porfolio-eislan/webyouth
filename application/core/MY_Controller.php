@@ -20,7 +20,9 @@ class MY_Controller extends MX_Controller
 
   public function render($content, $data = array())
   {
+    $data['title'] = 'Dadapbong - Web Dokumenter';
     $data['uri'] = $this->generateRandomString();
+    $data['identitas'] = $this->m_page->get_identitas();
     $this->load->view('app/template/header', $data);
     $this->load->view('app/template/topbar', $data);
     $this->load->view('app/template/navbar', $data);
