@@ -7,12 +7,12 @@
                             <div class="col-lg-7 animated fadeInRight">
                                 <div class="text-sm-center text-md-start">
                                     <h4 class="text-white text-uppercase fw-bold mb-4">Selamat Datang Di Arsip dan Dokumenter</h4>
-                                    <h1 class="display-1 text-white mb-4">Desa Dadapbong</h1>
+                                    <h1 class="display-1 text-white mb-4">Desa <?= $identitas['desa_nm'] ?></h1>
                                     <p class="mb-5 fs-5">Bersama, menjadi desa yang sejahtera, nyaman dan tentram.
                                     </p>
                                     <div class="d-flex justify-content-center justify-content-md-start flex-shrink-0 mb-4">
                                         <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
-                                        <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                        <a class="btn btn-dark rounded-pill py-3 px-4 px-md-5 ms-2" href="#content">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -29,16 +29,16 @@
         <!-- Carousel End -->
 
         <!-- Feature Start -->
-        <div class="container-fluid feature bg-light py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-4 mb-4">Insurance Provide you a Better Future</h1>
+        <div class="container-fluid feature bg-light pt-5">
+            <div class="container pt-5">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Harapan Kami</h4>
+                    <h1 class="display-4 mb-4">Mempunyai Harapan Menjadi Desa yang Serbaguna dan Nyaman Kepada Masyarakat</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
-                    <a class="btn btn-primary rounded-pill py-3 px-5 mt-5" href="#">More Information</a>
+                    <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mt-5" href="#">Selengkapnya Tentang Kami</a> -->
                 </div>
-                <div class="row g-4">
+                <!-- <div class="row g-4">
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item p-4 pt-0">
                             <div class="feature-icon p-4 mb-4">
@@ -83,7 +83,7 @@
                             <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!-- Feature End -->
@@ -94,52 +94,17 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="h-100">
-                            <div class="mb-5">
-                                <h4 class="text-primary">Some Important FAQ's</h4>
-                                <h1 class="display-4 mb-0">Common Frequently Asked Questions</h1>
+                            <div class="mb-2">
+                                <h4 class="text-primary">Sambutan Bapak Dukuh Desa <?= @$identitas['desa_nm'] ?></h4>
+                                <h1 class="display-4 mb-0"><?= @$identitas['dukuh_nm'] ?>, S.Pd</h1>
                             </div>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Q: What happens during Freshers' Week?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body rounded">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Q: What is the transfer application process?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Q: Why should I attend community college?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
+                            <div>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae doloribus officia dignissimos! Architecto ratione cumque esse blanditiis consequatur aperiam illo deleniti excepturi asperiores. Fugit eum nobis similique ad, sequi totam voluptates. Nostrum error pariatur ut non suscipit vitae distinctio, fuga voluptatibus atque? Ipsa doloremque nesciunt amet quos. Assumenda non quidem perferendis error voluptatibus omnis aut deleniti facere placeat sunt voluptatem officia, enim nam, consequatur sapiente ipsum, eligendi id commodi. Voluptatem magnam necessitatibus nisi cumque adipisci accusantium quibusdam id modi voluptas temporibus quaerat accusamus illo magni expedita, distinctio commodi velit error obcaecati voluptate itaque asperiores assumenda. Aliquid, ratione. Incidunt, id?</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <img src="<?= base_url() ?>assets/img/carousel-2.png" class="img-fluid w-100" alt="">
+                        <img src="<?= base_url() ?>assets/img/carousel-2.png" class="img-fluid w-100 rounded" alt="">
                     </div>
                 </div>
             </div>
@@ -152,16 +117,17 @@
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
-                            <h4 class="text-primary">About Our Company</h4>
-                            <h1 class="display-4 mb-4">High Range of Exploring Protection</h1>
+                            <h4 class="text-primary">Tentang Kami</h4>
+                            <h1 class="display-4 mb-4">Mensejahterakan Masyarakat</h1>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo,
                             </p>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae eligendi modi hic
                             </p>
-                            <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, animi sint pariatur consectetur suscipit voluptates nemo nihil laboriosam autem iure magnam! Temporibus possimus excepturi maiores ipsam nesciunt hic vel quis, a tenetur placeat ducimus dolorum facere optio totam voluptatibus. Debitis?</p>
+                            <!-- <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
                             <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Production or trading of good</p>
-                            <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p>
-                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
+                            <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p> -->
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Selengkapnya Tentang Kami</a>
                         </div>
                     </div>
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
@@ -220,8 +186,8 @@
         <div class="container-fluid service py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Services</h4>
-                    <h1 class="display-4 mb-4">We Provide Best Services</h1>
+                    <h4 class="text-primary">Berita Kami</h4>
+                    <h1 class="display-4 mb-4">Menampilkan Berita Disekitar Kami</h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -294,8 +260,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Services</a>
+                    <div class="col-12 text-center wow fadeInUp mt-5" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Selengkapnya Berita Kami</a>
                     </div>
                 </div>
             </div>
@@ -309,14 +275,14 @@
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="h-100">
                             <div class="mb-5">
-                                <h4 class="text-primary">Some Important FAQ's</h4>
-                                <h1 class="display-4 mb-0">Common Frequently Asked Questions</h1>
+                                <h4 class="text-primary">Pertanyaan Terkait Kami</h4>
+                                <h1 class="display-4 mb-0">Pertanyaan yang sering Ditanyakan</h1>
                             </div>
                             <div class="accordion" id="accordionExample">
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingOne">
                                         <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Q: What happens during Freshers' Week?
+                                            Q: Berapa Jumlah Penduduk di Desa <?= @$identitas['desa_nm'] ?>?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -328,7 +294,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingTwo">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Q: What is the transfer application process?
+                                            Q: Mengapa Desa <?= @$identitas['desa_nm'] ?> Terbagi Menjadi 2 Bagian?
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -340,7 +306,7 @@
                                 <div class="accordion-item">
                                     <h2 class="accordion-header" id="headingThree">
                                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Q: Why should I attend community college?
+                                            Q: Destinasi Wisata apa yang ada di Desa <?= @$identitas['desa_nm'] ?>
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -361,7 +327,7 @@
         <!-- FAQs End -->
 
         <!-- Blog Start -->
-        <div class="container-fluid blog py-5">
+        <!-- <div class="container-fluid blog py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <h4 class="text-primary">From Blog</h4>
@@ -432,19 +398,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Blog End -->
 
         <!-- Team Start -->
-        <div class="container-fluid team pb-5">
+        <div class="container-fluid team py-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
+                    <h4 class="text-primary">Perangkat Desa</h4>
+                    <h1 class="display-4 mb-4">Jajaran Perangkat Desa <?= @$identitas['desa_nm'] ?></h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
                 <div class="row g-4">
+                    <?php foreach(@$perangkat_desa as $row) : ?>
                     <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="team-item">
                             <div class="team-img">
@@ -457,63 +424,23 @@
                                 </div>
                             </div>
                             <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
+                                <h5 class="mb-0 text-white fw-bold"><?= $row['perangkatdesa_nm'] ?><?= $row['gelar_nm'] != '' ? ', ' . $row['gelar_nm'] : '' ?></h5>
+                                <p class="mb-0 fs-6"><?= @$row['jabatan_nm'] ?></p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?= base_url() ?>assets/img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?= base_url() ?>assets/img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="<?= base_url() ?>assets/img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
+                    <?php endforeach; ?>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 text-end wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2 wow fadeInUp" data-wow-delay="0.2s" href="#">+ <span  data-toggle="counter-up"><?= $jumlah_perangkat_desa - 4 ?></span> Lainnya</a>
                     </div>
                 </div>
+                <!-- <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-5 wow fadeInUp" data-wow-delay="0.2s" href="#">Selengkapnya Perangkat Desa</a>
+                    </div>
+                </div> -->
             </div>
         </div>
         <!-- Team End -->
@@ -522,8 +449,8 @@
         <div class="container-fluid testimonial pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Testimonial</h4>
-                    <h1 class="display-4 mb-4">What Our Customers Are Saying</h1>
+                    <h4 class="text-primary">Organisasi Karang Taruna</h4>
+                    <h1 class="display-4 mb-4">Mengenalkan Organisasi Pemuda/i Unit <?= @$identitas['desa_nm'] ?></h1>
                     <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
                     </p>
                 </div>
@@ -599,6 +526,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-xl-12 col-md-12 col-lg-12 text-center wow fadeInUp" data-delay="0.2s">
+                        <a class="btn btn-primary text-center rounded-pill py-3 px-5" href="#">Selengkapnya Berita Kami</a>
                     </div>
                 </div>
             </div>
