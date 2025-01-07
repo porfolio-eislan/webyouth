@@ -56,7 +56,7 @@ class MX_Controller
 		
 		/* autoload module items */
 		$this->load->_autoloader($this->autoload);
-		$this->db->get('app_identitas')->row_array();
+		// $this->db->get('app_identitas')->row_array();
 	}
 	
 	public function __get($class) 
