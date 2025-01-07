@@ -14,9 +14,9 @@
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="<?= $this->uri . 'index/home'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'home' ? 'active' : '' ?>">Home</a>
-                            <a href="<?= $this->uri . 'index/about'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'about' ? 'active' : '' ?>">About</a>
-                            <a href="service.html" class="nav-item nav-link">Services</a>
-                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <a href="<?= $this->uri . 'index/about'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'about' ? 'active' : '' ?>">Tentang</a>
+                            <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
+                            <a href="blog.html" class="nav-item nav-link">Berita</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Pages</span>
