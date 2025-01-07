@@ -10,6 +10,7 @@ class Page extends MY_Controller
     $this->uri = site_url('app/page/');
     $this->template = 'app/page/';
     $this->page = site_url('app/page/');
+    $this->load->model('m_page');
   }
 
   public function index($main = null ? $main = null : 'home')
@@ -24,6 +25,8 @@ class Page extends MY_Controller
     // HOME
     if(@$main == 'home') {
       $d['url'] = 'home';
+      $d['perangkat_desa'] = $this->m_page->get_perangkat_desa();
+      $d['jumlah_perangkat_desa'] = count(DB::all('data_perangkat_desa'));
     } 
 
     // ABOUT
