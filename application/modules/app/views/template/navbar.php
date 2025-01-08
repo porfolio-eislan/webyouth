@@ -4,8 +4,8 @@
         <div class="container-fluid nav-bar px-0 px-lg-4 py-lg-0">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light"> 
-                    <a href="#" class="navbar-brand p-0">
-                        <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> Dadapbong</h1>
+                    <a href="<?= $this->uri . 'index/home'. '?' . $uri ?>" class="navbar-brand p-0">
+                        <h1 class="text-primary mb-0"><i class="fab fa-slack me-2"></i> <?= $identitas['desa_nm'] ?></h1>
                         <!-- <img src="<?= base_url() ?>assets/img/logo.png" alt="Logo"> -->
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -15,24 +15,24 @@
                         <div class="navbar-nav mx-0 mx-lg-auto">
                             <a href="<?= $this->uri . 'index/home'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'home' ? 'active' : '' ?>">Home</a>
                             <a href="<?= $this->uri . 'index/about'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'about' ? 'active' : '' ?>">Tentang</a>
+                            <a href="<?= $this->uri . 'index/blog'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'blog' ? 'active' : '' ?>">Berita</a>
                             <!-- <a href="service.html" class="nav-item nav-link">Services</a> -->
-                            <a href="blog.html" class="nav-item nav-link">Berita</a>
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <a class="nav-link" data-bs-toggle="dropdown">
                                     <span class="dropdown-toggle">Pages</span>
                                 </a>
                                 <div class="dropdown-menu">
-                                    <a href="feature.html" class="dropdown-item">Our Features</a>
-                                    <a href="team.html" class="dropdown-item">Our team</a>
-                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                    <a href="FAQ.html" class="dropdown-item">FAQs</a>
-                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                    <a href="<?= $this->uri . 'index/team'. '?' . $uri ?>" class="dropdown-item <?= $url == 'team' ? 'active' : '' ?>">Perangkat Desa</a>
+                                    <a href="<?= $this->uri . 'index/visi'. '?' . $uri ?>" class="dropdown-item <?= $url == 'visi' ? 'active' : '' ?>">Visi & Misi</a>
+                                    <a href="<?= $this->uri . 'index/galeri'. '?' . $uri ?>" class="dropdown-item <?= $url == 'galeri' ? 'active' : '' ?>">Foto & Video</a>
                                 </div>
                             </div>
+                            <a href="<?= $this->uri . 'index/youth'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'youth' ? 'active' : '' ?>">Karang&nbsp;Taruna</a>
+                            <a href="<?= $this->uri . 'index/activity'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'activity' ? 'active' : '' ?>">Kegiatan</a>
+                            <a href="<?= $this->uri . 'index/venue'. '?' . $uri ?>" class="nav-item nav-link <?= $url == 'venue' ? 'active' : '' ?>">Wisata</a>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                             <div class="nav-btn px-3">
-                                <button class="btn-search btn btn-primary btn-md-square rounded-circle flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
-                                <a href="#" class="btn btn-primary rounded-pill py-2 px-4 ms-3 flex-shrink-0"> Get a Quote</a>
+                                <button class="btn-search btn btn-primary btn-md-square flex-shrink-0" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             </div>
                         </div>
                     </div>

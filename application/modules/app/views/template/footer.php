@@ -16,19 +16,17 @@
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f"></i></a>
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter"></i></a>
                                             <a class="btn btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram"></i></a>
-                                            <a class="btn btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-3">
                                     <div class="footer-item">
-                                        <h4 class="text-white mb-4">Useful Links</h4>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Features</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Services</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> FAQ's</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Blogs</a>
-                                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                                        <h4 class="text-white mb-4">Pages</h4>
+                                        <a href="<?= $this->uri . 'index/about' . '?' . $uri ?>"><i class="fas fa-angle-right me-2"></i> Tentang Kami</a>
+                                        <a href="<?= $this->uri . 'index/blog' . '?' . $uri ?>"><i class="fas fa-angle-right me-2"></i> Berita Kami</a>
+                                        <a href="<?= $this->uri . 'index/team' . '?' . $uri ?>"><i class="fas fa-angle-right me-2"></i> Perangkat Desa</a>
+                                        <a href="<?= $this->uri . 'index/visi' . '?' . $uri ?>"><i class="fas fa-angle-right me-2"></i> Visi & Misi</a>
+                                        <a href="<?= $this->uri . 'index/galeri' . '?' . $uri ?>"><i class="fas fa-angle-right me-2"></i> Foto & Video</a>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6 col-xl-4">
@@ -92,36 +90,25 @@
                             <div class="row g-0">
                                 <div class="col-12">
                                     <div class="row g-4">
-                                        <div class="col-lg-6 col-xl-4">
+                                        <div class="col-lg-6 col-xl-6">
                                             <div class="d-flex">
                                                 <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                     <i class="fas fa-map-marker-alt fa-2x"></i>
                                                 </div>
                                                 <div>
-                                                    <h4 class="text-white">Address</h4>
-                                                    <p class="mb-0">123 Street New York.USA</p>
+                                                    <h4 class="text-white">Alamat</h4>
+                                                    <p class="mb-0 text-uppercase"><?= $identitas['desa_nm'] . ', KEL.' . $identitas['kelurahan_nm'] . ', KEC.' . $identitas['kecamatan_nm'] . ', KAB.' . $identitas['kabupaten_nm'] . ', PROV.' . $identitas['provinsi_nm'] ?></p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6 col-xl-4">
+                                        <div class="col-lg-6 col-xl-6">
                                             <div class="d-flex">
                                                 <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
                                                     <i class="fas fa-envelope fa-2x"></i>
                                                 </div>
                                                 <div>
-                                                    <h4 class="text-white">Mail Us</h4>
-                                                    <p class="mb-0">info@example.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-xl-4">
-                                            <div class="d-flex">
-                                                <div class="btn-xl-square bg-primary text-white rounded p-4 me-4">
-                                                    <i class="fa fa-phone-alt fa-2x"></i>
-                                                </div>
-                                                <div>
-                                                    <h4 class="text-white">Telephone</h4>
-                                                    <p class="mb-0">(+012) 3456 7890</p>
+                                                    <h4 class="text-white">Hubungi Kami</h4>
+                                                    <p class="mb-0">dadapbong@laatahzan.id</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -164,14 +151,8 @@
         <div class="container-fluid copyright py-4">
             <div class="container">
                 <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-end mb-md-0">
-                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>Your Site Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-start text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom text-white" href="https://htmlcodex.com">HTML Codex</a>
+                    <div class="col-md-12 text-center mb-md-0">
+                        <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i><?= $identitas['desa_nm'] . ' ' . date('Y') ?></a> ALL RIGHT RESERVED. Dikelola oleh Tim Digital dan Komunikasi Desa</span>
                     </div>
                 </div>
             </div>
