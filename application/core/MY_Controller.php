@@ -26,6 +26,7 @@ class MY_Controller extends MX_Controller
     $this->load->view('app/template/header', $data);
     $this->load->view('app/template/topbar', $data);
     $this->load->view('app/template/navbar', $data);
+    $this->load->view('app/ext/breadcrumb', $data);
     $this->load->view($content, $data);
     $this->load->view('app/template/footer');
   }
