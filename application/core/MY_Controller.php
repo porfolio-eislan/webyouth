@@ -30,4 +30,15 @@ class MY_Controller extends MX_Controller
     $this->load->view($content, $data);
     $this->load->view('app/template/footer');
   }
+
+  public function render_admin($content, $data = array())
+  {
+    $data['title'] = 'Dadapbong - Web Dokumenter';
+    $data['uri'] = $this->generateRandomString();
+    $data['identitas'] = $this->m_page->get_identitas();
+    $this->load->view('app/template/header-admin', $data);
+    $this->load->view('app/template/sidebar-admin', $data);
+    $this->load->view($content, $data);
+    $this->load->view('app/template/footer-admin');
+  }
 }
