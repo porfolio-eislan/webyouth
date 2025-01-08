@@ -115,7 +115,7 @@
         <div class="container-fluid bg-light about pb-5">
             <div class="container pb-5">
                 <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
                             <h4 class="text-primary">Tentang Kami</h4>
                             <h1 class="display-4 mb-4">Mensejahterakan Masyarakat</h1>
@@ -127,54 +127,7 @@
                             <!-- <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
                             <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Production or trading of good</p>
                             <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p> -->
-                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Selengkapnya Tentang Kami</a>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
-                        <div class="bg-white rounded p-5 h-100">
-                            <div class="row g-4 justify-content-center">
-                                <div class="col-12">
-                                    <div class="rounded bg-light">
-                                        <img src="<?= base_url() ?>assets/img/about-1.png" class="img-fluid rounded w-100" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="counter-item bg-light rounded p-3 h-100">
-                                        <div class="counter-counting">
-                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">129</span>
-                                            <span class="h1 fw-bold text-primary">+</span>
-                                        </div>
-                                        <h4 class="mb-0 text-dark">Insurance Policies</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="counter-item bg-light rounded p-3 h-100">
-                                        <div class="counter-counting">
-                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">99</span>
-                                            <span class="h1 fw-bold text-primary">+</span>
-                                        </div>
-                                        <h4 class="mb-0 text-dark">Awards WON</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="counter-item bg-light rounded p-3 h-100">
-                                        <div class="counter-counting">
-                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">556</span>
-                                            <span class="h1 fw-bold text-primary">+</span>
-                                        </div>
-                                        <h4 class="mb-0 text-dark">Skilled Agents</h4>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="counter-item bg-light rounded p-3 h-100">
-                                        <div class="counter-counting">
-                                            <span class="text-primary fs-2 fw-bold" data-toggle="counter-up">967</span>
-                                            <span class="h1 fw-bold text-primary">+</span>
-                                        </div>
-                                        <h4 class="mb-0 text-dark">Team Members</h4>
-                                    </div>
-                                </div>
-                            </div>
+                            <a class="btn btn-primary rounded-pill py-3 px-5" href="<?= $this->uri . 'index/about'. '?' . $uri ?>">Selengkapnya Tentang Kami</a>
                         </div>
                     </div>
                 </div>
@@ -261,7 +214,7 @@
                         </div>
                     </div>
                     <div class="col-12 text-center wow fadeInUp mt-5" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill py-3 px-5" href="#">Selengkapnya Berita Kami</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="<?= $this->uri . 'index/blog'. '?' . $uri ?>">Selengkapnya Berita Kami</a>
                     </div>
                 </div>
             </div>
@@ -433,7 +386,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-xl-12 text-end wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2 wow fadeInUp" data-wow-delay="0.2s" href="#">+ <span  data-toggle="counter-up"><?= $jumlah_perangkat_desa - 4 ?></span> Lainnya</a>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2 wow fadeInUp" data-wow-delay="0.2s" href="<?= $this->uri . 'index/team'. '?' . $uri ?>">+ <span  data-toggle="counter-up"><?= $jumlah_perangkat_desa - 4 ?></span> Lainnya</a>
                     </div>
                 </div>
                 <!-- <div class="row">
@@ -530,7 +483,16 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-xl-12 col-md-12 col-lg-12 text-center wow fadeInUp" data-delay="0.2s">
-                        <a class="btn btn-primary text-center rounded-pill py-3 px-5" href="#">Selengkapnya Berita Kami</a>
+                        <a class="btn btn-primary text-center rounded-pill py-3 px-5" href="<?= $this->uri . 'index/youth'. '?' . $uri ?>">Selengkapnya Tentang Karang Taruna</a>
+                    </div>
+                     <div class="col-12 mt-5 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="rounded">
+                            <!-- <iframe class="rounded w-100" 
+                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                            <iframe  class="rounded w-100" 
+                            style="height: 400px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7904.563525289647!2d110.29159953797098!3d-7.865554968625668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af8c36996449f%3A0x3fbd07f5a118fd7b!2sDadapbong%2C%20Sendangsari%2C%20Kec.%20Pajangan%2C%20Kabupaten%20Bantul%2C%20Daerah%20Istimewa%20Yogyakarta!5e0!3m2!1sid!2sid!4v1736300917767!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>

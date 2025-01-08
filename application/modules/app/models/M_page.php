@@ -18,4 +18,13 @@ Class M_page extends CI_Model {
         $query = DB::raw('result_array', $sql);
         return $query;
     }
+
+    public function get_perangkat_desa_all()
+    {
+        $sql = "SELECT a.*, b.jabatan_nm 
+                FROM data_perangkat_desa a
+                LEFT JOIN master_jabatan b ON a.jabatan_id = b.jabatan_id";
+        $query = DB::raw('result_array', $sql);
+        return $query;
+    }
 }

@@ -1,25 +1,29 @@
 
-        <?= $this->load->view('ext/breadcrumb') ?>
         
         <!-- About Start -->
         <div class="container-fluid bg-light about py-5">
             <div class="container py-5">
                 <div class="row g-5">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
                         <div class="about-item-content bg-white rounded p-5 h-100">
-                            <h4 class="text-primary">About Our Company</h4>
-                            <h1 class="display-4 mb-4">High Range of Exploring Protection</h1>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo,
+                            <h4 class="text-primary">Tentang Kami</h4>
+                            <h1 class="display-4 mb-4">Misi: Mensejahterakan Masyarakat yang Guyub dan Adil</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellendus assumenda quas nihil aspernatur unde a dolorem vero debitis, dignissimos tenetur magnam fugiat inventore atque? Fugit labore id necessitatibus eaque! Quaerat, dolore beatae ullam exercitationem obcaecati iusto similique repudiandae tempora incidunt debitis veniam hic dolorum? Et ipsam sequi quod labore odio veniam aperiam aspernatur.
                             </p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae eligendi modi hic
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam explicabo sequi molestiae provident cupiditate. Incidunt laboriosam placeat tempora beatae provident, esse a. Adipisci voluptates vero facere rem sed porro et placeat quaerat? Ea nobis quia totam dignissimos illum dolores officia et reiciendis quis. Corrupti officia rem ipsa voluptas a libero vel placeat suscipit sit, vitae ipsam quidem ex esse excepturi pariatur? Exercitationem laboriosam similique explicabo? Ducimus fuga hic voluptatem quam libero, saepe veritatis accusantium earum doloribus quaerat culpa veniam possimus modi. Deserunt beatae quas impedit corrupti maxime, cumque officia dolor id excepturi facilis ea voluptas alias accusamus quasi, reprehenderit, dicta nisi. Eveniet doloribus maiores alias, fugit, ea fugiat accusantium possimus sint facere, earum odit corporis et blanditiis. Rerum, tempora dolor nam maiores dolorem ea voluptatum maxime odit non. Dolore sequi mollitia quibusdam consectetur. Maxime ipsa corporis distinctio excepturi saepe dolore optio dicta minima! Porro earum pariatur sit est qui amet minima, aut, ad hic inventore repellat eum. Vero temporibus ex asperiores libero aut non voluptatem amet deleniti dicta cum fugiat quisquam, error tempore architecto adipisci aperiam nihil maiores repudiandae culpa rerum accusamus soluta. Totam molestias expedita pariatur adipisci quae consectetur.
                             </p>
-                            <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit veniam, quaerat maiores nesciunt repellendus reiciendis minima explicabo voluptatem dolores, sequi ipsam! Dolorum sint ipsam, sequi voluptatem rem vero cupiditate eligendi. Dicta, incidunt! Ex dicta odio quod dignissimos nam ad consequatur odit quae tenetur fuga. Iste ducimus reiciendis non quisquam atque, laboriosam iure ad. Nisi ipsum expedita sint aspernatur, magnam temporibus. Quos culpa consequuntur sequi reprehenderit minima repellendus temporibus eum veniam fugiat sit, ab iste consequatur quam voluptatem assumenda odio adipisci, iure eligendi dolorem mollitia id dolore earum? Fuga, voluptas.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quisquam dicta tenetur non animi impedit necessitatibus beatae aspernatur autem obcaecati! Animi, nemo. Voluptatibus consequuntur ea reiciendis error tempore placeat, quo expedita amet laboriosam quas nisi eligendi quidem corrupti dolore obcaecati officiis earum dicta ex distinctio repudiandae. Necessitatibus facilis cum eaque. Vitae, cum assumenda ex quo labore cumque dicta doloremque expedita aperiam, sequi molestias qui ipsam voluptate repudiandae alias! Hic officia voluptate cumque dolor deleniti, numquam commodi quasi aperiam.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, est similique culpa id quae sed soluta earum amet eum tenetur cupiditate accusantium a suscipit deleniti aut unde incidunt numquam fugiat minima eveniet nobis ducimus aspernatur quas. Quas sequi quam consequuntur, magnam, dicta totam corrupti consectetur repellendus fugit excepturi alias quibusdam nesciunt nihil autem. Rem, odit tempore?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse dignissimos ea iste est eaque, debitis laborum velit fuga recusandae tempora omnis minima quibusdam assumenda fugit illum. Porro reiciendis ipsum nobis hic veniam placeat voluptatem ab deserunt voluptate. Nemo a totam libero quisquam, voluptas deserunt necessitatibus nobis vero mollitia beatae maxime cum recusandae ducimus corporis iure earum dolorem fugiat! Suscipit harum, neque ipsa a itaque, vitae perferendis vel non quaerat modi pariatur eaque porro distinctio id voluptatibus, delectus nam tenetur voluptas error. Laborum libero nemo possimus facilis eaque, ipsum sequi error amet consectetur repellat nulla. Corrupti omnis quo voluptatem aliquid perferendis repellat. Numquam perspiciatis quos voluptate a itaque repellendus sit mollitia quo facilis minima minus assumenda corrupti culpa, voluptas sunt accusamus cumque odit ad quis similique dignissimos. Totam, nisi possimus illo amet corrupti delectus molestiae minus aliquid inventore? Aspernatur, nulla adipisci velit, cumque cupiditate laboriosam repellendus esse fuga ad reprehenderit rem? Commodi, doloribus accusantium, ipsa facere accusamus quasi perspiciatis laborum minima nemo enim molestiae deserunt reprehenderit at eveniet omnis ullam dolor blanditiis nobis nostrum. Voluptas, quam odio repellat minima quae nulla eum, vero dicta, quibusdam magni vitae libero exercitationem sequi doloribus repellendus sapiente ex. Fuga ab velit repellat, impedit tempora assumenda.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi esse quo ullam debitis? Quaerat aliquid saepe, inventore temporibus, incidunt sunt quia aut itaque maiores sapiente consectetur necessitatibus dicta tempore corporis, est reprehenderit explicabo debitis? Ex dolores magni aperiam, pariatur magnam, officia vero commodi facere dicta non quod soluta, nam quasi explicabo repellendus ducimus itaque. Quidem animi vero cupiditate provident blanditiis consequatur corporis optio, inventore velit magnam possimus expedita nihil veniam, sequi beatae! Quidem sunt eaque harum dicta saepe.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quod ex at? Tempore magnam rerum odit ab. Non tenetur laborum optio corporis quae distinctio harum magni nesciunt nobis, earum, facilis quis quam porro atque, quo unde inventore ullam facere neque repellat dolor! Id, cupiditate. Suscipit recusandae nesciunt nisi? Eveniet dolorem soluta enim accusamus! Alias sit aspernatur aperiam vitae beatae quibusdam ad totam consequuntur in, accusantium aliquid aut esse asperiores quod officiis placeat officia at facere velit, quam a quae! Enim, sed officiis debitis officia quaerat eum optio tenetur animi?</p>
+                            <!-- <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>We can save your money.</p>
                             <p class="text-dark"><i class="fa fa-check text-primary me-3"></i>Production or trading of good</p>
-                            <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p>
-                            <a class="btn btn-primary rounded-pill py-3 px-5" href="#">More Information</a>
+                            <p class="text-dark mb-4"><i class="fa fa-check text-primary me-3"></i>Our life insurance is flexible</p> -->
                         </div>
                     </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <!-- <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="bg-white rounded p-5 h-100">
                             <div class="row g-4 justify-content-center">
                                 <div class="col-12">
@@ -65,7 +69,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -75,200 +79,17 @@
         <!-- Feature Start -->
         <div class="container-fluid feature bg-light pb-5">
             <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Features</h4>
-                    <h1 class="display-4 mb-4">Insurance Provide you a Better Future</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                <div class="mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Sejarah Singkat</h4>
+                    <h1 class="display-4 mb-4">Asal Usul Desa <?= @$identitas['desa_nm'] ?></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem fugiat cum dolores architecto placeat velit iusto esse ut commodi, voluptatem impedit at ex consectetur magni similique ducimus ipsam pariatur ea quo adipisci consequuntur. Delectus, suscipit fugiat? Possimus distinctio aliquam tempora cupiditate quidem repellendus suscipit eum illum perspiciatis temporibus corrupti modi voluptatibus, quas esse.
                     </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item p-4 pt-0">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="far fa-handshake fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Trusted Company</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item p-4 pt-0">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-dollar-sign fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Anytime Money Back</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item p-4 pt-0">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-bullseye fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">Flexible Plans</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="feature-item p-4 pt-0">
-                            <div class="feature-icon p-4 mb-4">
-                                <i class="fa fa-headphones fa-3x"></i>
-                            </div>
-                            <h4 class="mb-4">24/7 Fast Support</h4>
-                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
-                            </p>
-                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
-                        </div>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nobis modi expedita, provident repellat distinctio consequatur repudiandae. Cum neque, quia maxime laborum, aliquam soluta officiis, inventore est ipsa pariatur perferendis id. Impedit beatae ex officiis fugiat consequuntur similique, numquam necessitatibus atque deserunt hic quisquam magni accusantium ipsa molestiae assumenda ipsam earum. Doloribus iure natus corrupti placeat deleniti animi iusto eum, eligendi eveniet quis? Fuga nostrum adipisci neque labore quaerat laboriosam voluptatem id optio, odio quibusdam aspernatur suscipit provident.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut pariatur quam, cum et quisquam veniam perspiciatis impedit mollitia, sequi maxime labore quos inventore suscipit deserunt quasi, est vitae? Aperiam reiciendis consequuntur ducimus consequatur soluta reprehenderit architecto pariatur repudiandae eius corporis voluptate distinctio et quasi, ad incidunt at provident voluptatibus. Atque sint hic numquam eos saepe. Cupiditate aut, reiciendis suscipit, iusto, excepturi aperiam quos hic molestias eius sed quisquam rem aspernatur soluta eum totam! Natus, doloremque inventore. Tenetur officiis nihil voluptatibus accusamus molestiae odit fugit, ab ipsum quis, nisi, molestias culpa.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores recusandae a illo hic ab minus doloremque facilis, nihil qui provident. Ex exercitationem est maiores, cum sed natus eveniet magni perferendis iure dolorem beatae, quo quibusdam laborum doloribus, a optio vero harum distinctio? Quas obcaecati placeat, voluptates fugit laudantium, accusantium qui quaerat est sunt unde voluptatem sit id autem odit sequi laborum! Dolorem aliquid autem facere quidem, eius a cumque modi harum, quod, error eaque illum sequi vitae laboriosam eos? Dicta qui non porro dolorem, labore eveniet, iusto nulla, aliquam nobis laborum autem! Nulla mollitia delectus soluta? Corporis nam harum molestiae. Magnam, porro harum. Id quasi ea iusto vero ut aliquam totam voluptatibus blanditiis illum quisquam nemo voluptate ullam, eius voluptatem, asperiores at aperiam consectetur fugit dignissimos veritatis vel incidunt ipsam? Animi velit voluptate itaque quae aperiam praesentium sint provident necessitatibus, dicta dolorum similique corporis quos illo magnam est? Eaque voluptates blanditiis molestias repellat enim! Cupiditate, ullam, enim architecto quas nostrum illum corporis, beatae minima modi quibusdam maiores natus vero? Ratione.</p>
                 </div>
             </div>
         </div>
         <!-- Feature End -->
 
-        <!-- FAQs Start -->
-        <div class="container-fluid faq-section bg-light pb-5">
-            <div class="container pb-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
-                        <div class="h-100">
-                            <div class="mb-5">
-                                <h4 class="text-primary">Some Important FAQ's</h4>
-                                <h1 class="display-4 mb-0">Common Frequently Asked Questions</h1>
-                            </div>
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Q: What happens during Freshers' Week?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse show active" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body rounded">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            Q: What is the transfer application process?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingThree">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            Q: Why should I attend community college?
-                                        </button>
-                                    </h2>
-                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                            A: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.4s">
-                        <img src="img/carousel-2.png" class="img-fluid w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FAQs End -->
-
-
-        <!-- Team Start -->
-        <div class="container-fluid team py-5">
-            <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <h4 class="text-primary">Our Team</h4>
-                    <h1 class="display-4 mb-4">Meet Our Expert Team Members</h1>
-                    <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid rounded-top w-100" alt="">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-primary btn-sm-square rounded-pill mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="team-title p-4">
-                                <h4 class="mb-0">David James</h4>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Team End -->
+    
